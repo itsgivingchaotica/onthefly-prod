@@ -40,7 +40,7 @@ const App = () => {
 
     getUser();
     fetchTrips();
-  }, []);
+  }, [API_URL]);
 
   const logout = async () => {
     const url = `${API_URL}/auth/logout`;
